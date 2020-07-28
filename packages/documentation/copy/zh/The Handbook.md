@@ -7,21 +7,21 @@ oneline: 学习 TypeScript 的第一步
 
 ## 关于这本手册
 
-Over 20 years after its introduction to the programming community, JavaScript is now one of the most widespread cross-platform languages ever created. Starting as a small scripting language for adding trivial interactivity to webpages, JavaScript has grown to be a language of choice for both frontend and backend applications of every size. While the size, scope, and complexity of programs written in JavaScript has grown exponentially, the ability of the JavaScript language to express the relationships between different units of code has not. Combined with JavaScript's rather peculiar runtime semantics, this mismatch between language and program complexity has made JavaScript development a difficult task to manage at scale.
+在编程社群中创立至今20年，JavaScript 已是所有编程语言中最受广泛运用的跨平台语言之一。创立之初，JavaScript 只是一个用于在网页上添加简单的交互的脚本语言，而现在，JavaScript 已经成长为创建各种规模的前后端应用时的选择。不过尽管以 JavaScript 编写的程序之体积、领域和复杂度经历了指数级的增长，JavaScript 语言自身表达各代码单元之间关系的能力却没有得到相应的提升。加之 JavaScript 古怪的运行时行为，编程语言与应用程序之间复杂度的不对等已使得 JavaScript 难以胜任大规模应用的开发。
 
-The most common kinds of errors that programmers write can be described as type errors: a certain kind of value was used where a different kind of value was expected. This could be due to simple typos, a failure to understand the API surface of a library, incorrect assumptions about runtime behavior, or other errors. The goal of TypeScript is to be a static typechecker for JavaScript programs - in other words, a tool that runs before your code runs (static) and ensure that the types of the program are correct (typechecked).
+程序员们犯下的最常见的错误可以被归类为「类型错误」：某种类型的值被运用在需要另一类型的值的位置。造成这种情况的可能性有很多，比如纯粹的 typo，对依赖库 API 错误的理解，以及对运行时行为错误的假设等。TypeScript 的目标是成为 JavaScript 程序的静态类型检查器——换句话说，一个在代码运行前执行的（所谓「静态」）用于确保代码中的类型正确性（所谓「类型检查」）的工具。
 
-If you are coming to TypeScript without a JavaScript background, with the intention of TypeScript being your first language, we recommend you first start reading the documentation [on JavaScript at the Mozilla Web Docs](https://developer.mozilla.org/docs/Web/JavaScript/Guide).
-If you have experience in other languages, you should be able to pick up JavaScript syntax quite quickly by reading the handbook.
+如果你在来学习 TypeScript 之前没有 JavaScript 的背景，想将 TypeScript 作为你的编程母语，我们推荐您首先阅读 [Mozilla Web Docs 中的 JavaScript 相关章节](https://developer.mozilla.org/docs/Web/JavaScript/Guide)。
+如果你有使用其它编程语言的经验，您应该能在阅读本书时很快领会 JavaScript 语法。
 
 ## 本书的结构
 
-The handbook is split into two sections:
+本书分为两个部分：
 
-- **The Handbook**
+- **手册**
 
-  The TypeScript Handbook is intended to be a comprehensive document that explains TypeScript to everyday programmers. You can read the handbook by going from top to bottom in the left-hand navigation.
-
+  TypeScript 手册意在作为综合性的文档向普通程序员阐释 TypeScript。你可以在左边的导航栏中自顶向下阅读本书。
+  
   You should expect each chapter or page to provide you with a strong understanding of the given concepts. The TypeScript Handbook is not a complete language specification, but it is intended to be a comprehensive guide to all of the language's features and behaviors.
 
   A reader who completes the walkthrough should be able to:
@@ -33,7 +33,7 @@ The handbook is split into two sections:
 
   In the interests of clarity and brevity, the main content of the Handbook will not explore every edge case or minutiae of the features being covered. You can find more details on particular concepts in the reference articles.
 
-- **The Handbook Reference**
+- **参考手册**
 
   The handbook reference is built to provide a richer understanding of how a particular part of TypeScript works. You can read it top-to-bottom, but each section aims to provide a deeper explanation of a single concept - meaning there is no aim for continuity.
 
